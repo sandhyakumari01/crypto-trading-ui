@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="mx-8">
+    <div className="lg:mx-8 mx-3">
 
       <HomePage />
 

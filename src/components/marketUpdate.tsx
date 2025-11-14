@@ -131,24 +131,33 @@ export default function MarketUpdate() {
           Cryptocurrency Categories
         </p>
       
-      <div className="flex justify-between mt-1 mb-4">
-      <div className="ml-2 flex gap-3">
-  <Button style={{ borderRadius: 3 }}>All</Button>
+   <div
+  className="
+    flex flex-col 
+    md:flex-row md:justify-between 
+    gap-4 md:items-center 
+    mt-1 mb-4
+  "
+>
+  {/* Buttons Group */}
+  <div className="flex flex-wrap gap-3 md:ml-2">
+    <Button className="px-4" style={{ borderRadius: 3 }}>All</Button>
 
-  <Button variant="outline" style={{ borderRadius: 3 }}>Gainer</Button>
+    <Button variant="outline" className="px-4" style={{ borderRadius: 3 }}>Gainer</Button>
 
-  <Button variant="outline" style={{ borderRadius: 3 }}>Loser</Button>
+    <Button variant="outline" className="px-4" style={{ borderRadius: 3 }}>Loser</Button>
 
-  <Button variant="outline" style={{ borderRadius: 3 }}>New Listing</Button>
+    <Button variant="outline" className="px-4" style={{ borderRadius: 3 }}>New Listing</Button>
+  </div>
+
+  {/* Search Input */}
+  <Input
+    placeholder="Search Coin"
+    className="w-full md:w-60"
+    style={{ borderRadius: 3 }}
+  />
 </div>
 
-
-        <Input
-          placeholder="Search Coin"
-          className="w-60"
-          style={{borderRadius:3}}
-        />
-      </div>
 
       {/* TABLE */}
       <div className="flex justify-center">

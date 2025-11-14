@@ -13,22 +13,18 @@ import {
   SiDogecoin,
   SiRipple,
 } from "react-icons/si";
-// Removed TbTriangleFilled and used SiTron (Red TRX icon) instead for better visual match
+
 import { TbTriangleFilled } from "react-icons/tb";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function CryptoChainsSection() {
   return (
-    // Added dark background to the whole section for the image look
     <section className="py-20"> 
 
-      {/* -------------------- TOP SECTION -------------------- */}
       <div className="flex flex-col items-center text-center">
 
-        {/* PERFECT ARC ICONS */}
-        {/* Adjusted size (h-60) and positioning for better arc look */}
-        <div className="relative w-full max-w-4xl h-60 mb-8"> 
+        <div className="relative w-full lg:max-w-4xl  h-60 mb-8 hidden sm:block"> 
           
           {/* TOP-LEFT to TOP-RIGHT ARC (Clockwise) */}
           {/* Note: Used SiTron for the red icon (matches image better than a simple triangle) */}
@@ -44,27 +40,23 @@ export default function CryptoChainsSection() {
           <ArcIcon icon={<SiBinance size={34} color="#F3BA2F" />} x="18%" y="40%" /> 
         </div>
 
-        {/* HEADING - Changed to white/light color */}
         <h2 className="text-4xl font-bold text-muted-foreground dark:text-white leading-tight">
           All the chains <br /> that matter in one place
         </h2>
 
-        {/* SUBTEXT - Changed to lighter color */}
+
         <p className="max-w-lg text-gray-400 mt-4 text-base leading-relaxed">
           Explore top blockchains like Bitcoin, Ethereum, Cardano, and Solana—
           secure, scalable, and innovative networks shaping the future of crypto.
         </p>
 
-        {/* STORE BUTTONS - Adjusted colors to match image's muted pink/purple */}
         <div className="flex gap-4 mt-8">
-          {/* Adjusted Google Play button color */}
           <StoreButton 
             icon={<FaGooglePlay />} 
             text="Download as the" 
             label="Google Play"
             className="from-[#6A3C56] to-[#A05C87] text-sm" 
           />
-          {/* Adjusted App Store button color */}
           <StoreButton 
             icon={<FaApple />} 
             text="Download on the" 
@@ -83,7 +75,7 @@ export default function CryptoChainsSection() {
     "
     style={{ borderRadius: 14 }}
   >
-    {/* LIGHT MODE BACKGROUND */}
+
     <div
       className="absolute inset-0 -z-10 block dark:hidden"
       style={{
@@ -93,7 +85,7 @@ export default function CryptoChainsSection() {
       }}
     />
 
-    {/* DARK MODE BACKGROUND (REAL EXACT COLOR) */}
+ 
     <div
       className="absolute inset-0 -z-10 hidden dark:block"
       style={{
