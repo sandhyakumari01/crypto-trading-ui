@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 CryptoX – Modern Crypto Trading Platform
 
-## Getting Started
+A fast, secure, and beautifully designed crypto trading platform built using Next.js, Tailwind CSS, and shadcn/ui.
+This project includes real-time market data UI, trading dashboard, wallet analytics, charts, and seamless light/dark theme support.
 
-First, run the development server:
+⚡ Features
+🔥 Beautiful UI with Light & Dark Mode
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Fully responsive design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Smooth theme toggle
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Modern gradients & shadows
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📈 Advanced Trading Dashboard
 
-## Learn More
+Live charts (candlestick + sparkline)
 
-To learn more about Next.js, take a look at the following resources:
+Insta Buy/Sell widget
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Real-time P/L, market movements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+BNPL (Buy Now Pay Later) support
 
-## Deploy on Vercel
+🪙 Crypto Market Overview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dynamic market table
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Live price, % change, mini charts
+
+Gainers/Losers filtering
+
+Search coins
+
+🛠️ Wallet & Portfolio
+
+Donut portfolio chart
+
+Asset distribution
+
+Balance, holdings, growth
+
+Rapid updates
+
+🌐 Blockchain Ecosystem Section
+
+Logos of major blockchains (BTC, ETH, SOL, BNB, USDT, TRX, XRP, etc.)
+
+Animated interactions
+
+Highlighted network visualization
+
+🧩 Reusable Components
+
+Navbar
+
+Footer with CSS Waves
+
+Section cards
+
+Charts (ApexCharts)
+
+Buttons & Icons
+
+🧱 Tech Stack
+Technology	Use
+Next.js 14	High-performance React framework
+TypeScript	Strongly typed React
+Tailwind CSS	Styling system
+shadcn/ui	UI components
+ApexCharts	Charts & analytics
+react-icons	Icons
+Framer Motion	Animations
+📂 Project Structure
+/components
+  ├── Navbar.tsx
+  ├── Footer.tsx
+  ├── HomePage.tsx
+  ├── CryptoPriceCards.tsx
+  ├── MarketUpdate.tsx
+  ├── TrackCrypto.tsx
+  ├── CryptoDashboard.tsx
+  ├── CryptoNetwork.tsx
+  ├── CryptoChainsSection.tsx
+  └── ...others
+
+/app
+  └── page.tsx (main layout)
