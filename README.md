@@ -71,17 +71,29 @@ shadcn/ui	UI components
 ApexCharts	Charts & analytics
 react-icons	Icons
 Framer Motion	Animations
+
 📂 Project Structure
+
 /components
+
   ├── Navbar.tsx
+  
   ├── Footer.tsx
+  
   ├── HomePage.tsx
+  
   ├── CryptoPriceCards.tsx
+  
   ├── MarketUpdate.tsx
+  
   ├── TrackCrypto.tsx
+  
   ├── CryptoDashboard.tsx
+  
   ├── CryptoNetwork.tsx
+  
   ├── CryptoChainsSection.tsx
+  
   └── ...others
 
 /app
